@@ -1,0 +1,822 @@
+versions pytest-6.2.5, py-1.10.0, python-3.8.9.final.0
+cwd=/Users/johnbergschneider/Desktop/vault
+args=('/Users/johnbergschneider/Desktop/vault/tests', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x110f0d5e0>
+    pytest_plugin_registered [hook]
+        plugin: <Session vault exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x110f0d5e0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x111450d30>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x11146d700>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x110f0d5e0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.managers.runner.PytestBrownieRunner object at 0x111461640>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.fixtures.PytestBrownieFixtures object at 0x11147b7c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x110f0d5e0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x111450d90>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x110f0d5e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'brownie.test.plugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/test/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'hypothesis.extra.pytestplugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/hypothesis/extra/pytestplugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/looponfail.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'web3.tools.pytest_ethereum.plugins' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/web3/tools/pytest_ethereum/plugins.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_forked' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/pytest_forked/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=10 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=5 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x111450d30>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x11146d700>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.managers.runner.PytestBrownieRunner object at 0x111461640>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.fixtures.PytestBrownieFixtures object at 0x11147b7c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x111450d90>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: hypothesis'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: xdist'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: ens'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: ethpm'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: web3'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_warning_recorded [hook]
+          warning_message: {message : PytestAssertRewriteWarning('Module already imported so cannot be rewritten: brownie'), category : 'PytestAssertRewriteWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', lineno : 1114, line : None}
+          when: config
+          nodeid: 
+          location: ('/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/config/__init__.py', 1114, '_consider_importhook')
+      finish pytest_warning_recorded --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1119f3070>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x111a0cdc0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x110f0d5e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'brownie.test.plugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/test/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'hypothesis.extra.pytestplugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/hypothesis/extra/pytestplugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/looponfail.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'web3.tools.pytest_ethereum.plugins' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/web3/tools/pytest_ethereum/plugins.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_forked' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/pytest_forked/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=9 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=10 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=5 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x111450d30>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x11146d700>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.managers.runner.PytestBrownieRunner object at 0x111461640>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <brownie.test.fixtures.PytestBrownieFixtures object at 0x11147b7c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x111450d90>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x1119f3070>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x111a0cdc0>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x111a0ce80>
+          manager: <_pytest.config.PytestPluginManager object at 0x110bf78e0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x110f0d5e0>
+          startdir: /Users/johnbergschneider/Desktop/vault
+      finish pytest_report_header --> [['rootdir: /Users/johnbergschneider/Desktop/vault', 'plugins: eth-brownie-1.16.4, hypothesis-6.21.6, xdist-1.34.0, web3-5.23.1, forked-1.3.0'], ['using: pytest-6.2.5 pylib-1.10.0', 'setuptools registered plugins:', '  eth-brownie-1.16.4 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/test/plugin.py', '  hypothesis-6.21.6 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/hypothesis/extra/pytestplugin.py', '  pytest-xdist-1.34.0 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/plugin.py', '  pytest-xdist-1.34.0 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/xdist/looponfail.py', '  web3-5.23.1 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/web3/tools/pytest_ethereum/plugins.py', '  pytest-forked-1.3.0 at /Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/pytest_forked/__init__.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Users/johnbergschneider/Desktop/vault/tests'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/Users/johnbergschneider/Desktop/vault/tests'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: /Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py
+                config: <_pytest.config.Config object at 0x110f0d5e0>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: /Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py
+                parent: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py
+                  parent: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module tests/test_vaultdeploy.py> [hook]
+            finish pytest_collect_file --> [<Module tests/test_vaultdeploy.py>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/test_vaultdeploy.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/test_vaultdeploy.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/test_vaultdeploy.py>
+      find_module called for: test_vaultdeploy [assertion]
+      matched test file '/Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py' [assertion]
+      _read_pyc(/Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py): out of date [assertion]
+      rewriting PosixPath('/Users/johnbergschneider/Desktop/vault/tests/test_vaultdeploy.py') [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: pytest
+            obj: <module 'pytest' from '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: NotSoBeefyVault
+            obj: <brownie.network.contract.ContractContainer object at 0x11141bf40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: accounts
+            obj: <brownie.network.account.Accounts object at 0x10ec536d0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: vault
+            obj: <function vault at 0x111a794c0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: test_name
+            obj: <function test_name at 0x111a79550>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x111a4cf70>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_name>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: test_notName
+            obj: <function test_notName at 0x111a795e0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x111a4cfa0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_notName>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_vaultdeploy.py>
+            name: test_token
+            obj: <function test_token at 0x111a79670>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x111a4cf70>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_token>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_vaultdeploy.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function test_name> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_name>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_notName> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_notName>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_token> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_token>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_vaultdeploy.py' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x110f0d5e0>
+          items: [<Function test_name>, <Function test_notName>, <Function test_token>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x110f0d5e0>
+            startdir: /Users/johnbergschneider/Desktop/vault
+            items: [<Function test_name>, <Function test_notName>, <Function test_token>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session vault exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=3>
+      pytest_runtest_protocol [hook]
+          item: <Function test_name>
+          nextitem: <Function test_notName>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_vaultdeploy.py::test_name
+            location: ('tests/test_vaultdeploy.py', 9, 'test_name')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_name>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='vault' scope='function' baseid='tests/test_vaultdeploy.py'>
+              request: <SubRequest 'vault' for <Function test_name>>
+          finish pytest_fixture_setup --> 0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87 [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_name>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_name' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_name>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_name>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_name>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_name' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_name>
+            nextitem: <Function test_notName>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='vault' scope='function' baseid='tests/test_vaultdeploy.py'>
+              request: <SubRequest 'vault' for <Function test_name>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_name>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_name' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_name' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_vaultdeploy.py::test_name
+            location: ('tests/test_vaultdeploy.py', 9, 'test_name')
+        finish pytest_runtest_logfinish --> [] [hook]
+        pytest_warning_captured [hook]
+            warning_message: {message : BrownieEnvironmentWarning("'NotSoBeefyVault' defines a 'balance' function, 'NotSoBeefyVault.balance' is available as NotSoBeefyVault.wei_balance"), category : 'BrownieEnvironmentWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/network/contract.py', lineno : 787, line : None}
+            when: runtest
+            item: <Function test_name>
+            location: None
+        finish pytest_warning_captured --> [] [hook]
+        pytest_warning_recorded [hook]
+            warning_message: {message : BrownieEnvironmentWarning("'NotSoBeefyVault' defines a 'balance' function, 'NotSoBeefyVault.balance' is available as NotSoBeefyVault.wei_balance"), category : 'BrownieEnvironmentWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/network/contract.py', lineno : 787, line : None}
+            nodeid: tests/test_vaultdeploy.py::test_name
+            when: runtest
+            location: None
+        finish pytest_warning_recorded --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_notName>
+          nextitem: <Function test_token>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_vaultdeploy.py::test_notName
+            location: ('tests/test_vaultdeploy.py', 12, 'test_notName')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_notName>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='vault' scope='function' baseid='tests/test_vaultdeploy.py'>
+              request: <SubRequest 'vault' for <Function test_notName>>
+          finish pytest_fixture_setup --> 0x602C71e4DAC47a042Ee7f46E0aee17F94A3bA0B6 [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_notName>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_notName' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_notName>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_notName>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_notName>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_notName' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_notName>
+            nextitem: <Function test_token>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='vault' scope='function' baseid='tests/test_vaultdeploy.py'>
+              request: <SubRequest 'vault' for <Function test_notName>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_notName>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_notName' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_notName' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_vaultdeploy.py::test_notName
+            location: ('tests/test_vaultdeploy.py', 12, 'test_notName')
+        finish pytest_runtest_logfinish --> [] [hook]
+        pytest_warning_captured [hook]
+            warning_message: {message : BrownieEnvironmentWarning("'NotSoBeefyVault' defines a 'balance' function, 'NotSoBeefyVault.balance' is available as NotSoBeefyVault.wei_balance"), category : 'BrownieEnvironmentWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/network/contract.py', lineno : 787, line : None}
+            when: runtest
+            item: <Function test_notName>
+            location: None
+        finish pytest_warning_captured --> [] [hook]
+        pytest_warning_recorded [hook]
+            warning_message: {message : BrownieEnvironmentWarning("'NotSoBeefyVault' defines a 'balance' function, 'NotSoBeefyVault.balance' is available as NotSoBeefyVault.wei_balance"), category : 'BrownieEnvironmentWarning', filename : '/Users/johnbergschneider/.local/pipx/venvs/eth-brownie/lib/python3.8/site-packages/brownie/network/contract.py', lineno : 787, line : None}
+            nodeid: tests/test_vaultdeploy.py::test_notName
+            when: runtest
+            location: None
+        finish pytest_warning_recorded --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_token>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_vaultdeploy.py::test_token
+            location: ('tests/test_vaultdeploy.py', 15, 'test_token')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_token>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_token>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_token' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_token>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_token>
+        pytest_runtest_makereport [hook]
+            item: <Function test_token>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo NameError("name 'pm' is not defined") tblen=25>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_token' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_token>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo NameError("name 'pm' is not defined") tblen=1>>
+            report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_token>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_token>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_vaultdeploy.py::test_token' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x110f0d5e0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_vaultdeploy.py::test_token
+            location: ('tests/test_vaultdeploy.py', 15, 'test_token')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session vault exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=3>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x1119f3070>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x110f0d5e0>
+      early skip of rewriting module: pygments.formatters.terminal [assertion]
+      early skip of rewriting module: pygments.styles.default [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_vaultdeploy.py::test_token' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x110f0d5e0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x110f0d5e0>
+    finish pytest_unconfigure --> [] [hook]
